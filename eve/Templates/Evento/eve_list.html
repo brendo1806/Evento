@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EventoList</title>
+</head>
+<body>
+    {% for evento in object_list %}
+        <p>{{ evento.nome }}</p>
+        <p>{{ evento.descricao }}</p>
+    {% endfor %}
+</body>
+</html>
