@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for organizador in object_list %}
+        <p>{{ organizador.nome }}</p>
+        <p>{{ organizador.descricao }}</p>
+    {% endfor %}
+
+</body>
+</html>

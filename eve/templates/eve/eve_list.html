@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load bootstrap4 %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,5 +10,8 @@
         <p>{{ evento.nome }}</p>
         <p>{{ evento.descricao }}</p>
     {% endfor %}
+
+
+    <a href="{% url 'evento:eve_create' %}">Criar</a>
 </body>
 </html>
